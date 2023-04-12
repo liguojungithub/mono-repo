@@ -22,5 +22,6 @@
   "dependencies": {
     "fs-extra": "^11.1.1",
     "pac-1": "^0.0.1"
-  }
+  },
+  "gitHead": "7ca969d71ed62446d62d844c56672b5f75bf7627"
 }

@@ -1,14 +1,13 @@
 0 silly argv {
-0 silly argv   _: [ 'create' ],
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
 0 silly argv   lernaVersion: '6.6.1',
 0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'pac-1'
+0 silly argv   pkg: 'pac-4'
 0 silly argv }
 1 notice cli v6.6.1
 2 verbose rootPath E:\hole\mono-repo
-3 error Error: Command failed with exit code 1: git config --get user.name
-3 error     at makeError (C:\Users\guosen\AppData\Roaming\nvm\v16.15.0\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
-3 error     at Function.module.exports.sync (C:\Users\guosen\AppData\Roaming\nvm\v16.15.0\node_modules\lerna\node_modules\execa\index.js:186:17)
-3 error     at Object.execSync (C:\Users\guosen\AppData\Roaming\nvm\v16.15.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:58:21)
-3 error     at CreateCommand.gitConfig (C:\Users\guosen\AppData\Roaming\nvm\v16.15.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:3466:31)
-3 error     at CreateCommand.initialize (C:\Users\guosen\AppData\Roaming\nvm\v16.15.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:3394:50)
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/pac-4 - Not found
+3 error     at E:\hole\mono-repo\node_modules\pacote\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+3 error     at async RegistryFetcher.packument (E:\hole\mono-repo\node_modules\pacote\lib\registry.js:92:19)
